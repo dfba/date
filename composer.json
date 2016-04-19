@@ -1,0 +1,19 @@
+{
+    "name": "dfba/date",
+    "description": "A simple extension for Nesbot's Carbon library.",
+    "require": {
+        "nesbot/carbon": "~1.20"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dave Bakker",
+            "email": "dfba@davebakker.io"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Dfba\\Date\\": "src/"
+        }
+    }
+}
